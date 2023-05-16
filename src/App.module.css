@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.taskHeader{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: var(--blue-300);
+    max-width: 46rem;
+    margin: 2rem auto;
+}
+
+.taskHeader i {
+    text-align: center;
+    display: inline-block;
+    color: var(--gray-200);
+    margin-left: 0.5rem;
+    background: var(--gray-400);
+    width: 1.5rem;
+    height: 1.187rem;
+    border-radius: 8px;
+    line-height: 1.6;
+    font-size: 0.75rem;
+    font-style: inherit;
+}
